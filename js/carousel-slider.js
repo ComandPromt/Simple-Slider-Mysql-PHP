@@ -22,9 +22,7 @@
         cache.$carouselContainer.find(".carousel-inner").height()
       );
     }
-    if (conf.center) {
-      cache.$thumbnailsLi.wrapAll("<div class='center clearfix'></div>");
-    }
+
   }
 
   function refreshOpacities(domEl) {

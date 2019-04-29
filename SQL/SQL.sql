@@ -1,5 +1,5 @@
 
-DROP DATABASE slider;
+DROP DATABASE IF EXISTS  slider;
 CREATE DATABASE slider;
 USE slider;
 

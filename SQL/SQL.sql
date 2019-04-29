@@ -1,7 +1,7 @@
 
-DROP DATABASE slider
-CREATE DATABASE slider
-USE slider
+DROP DATABASE slider;
+CREATE DATABASE slider;
+USE slider;
 
 CREATE TABLE `slider` (
 `id` int(11) NOT NULL,

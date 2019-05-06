@@ -9,7 +9,7 @@ CREATE TABLE `slider` (
 `description` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
 `created` datetime NOT NULL,
 `modified` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `slider` (`id`, `image`, `description`, `created`, `modified`) VALUES
 (1, 'nature1.jpg', 'Nature1 images', '2017-07-29 00:00:00', '2017-07-29 00:00:00'),
